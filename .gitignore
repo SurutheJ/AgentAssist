@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+
+# ChromaDB vector store (137MB — rebuild with ingest.py)
+kb_store/
+
+# Scraped articles (26MB, 5071 files — rebuild with scrape.py)
+scraped/
+
+# Pipeline state files
+ingest_checkpoint.json
+crawled_urls.txt
+blocked_urls.txt
+sitemap.xml
+
+# Logs
+streamlit.log
+*.log
+
+# macOS
+.DS_Store
